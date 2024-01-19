@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define the Car bean and inject its properties -->
+    <bean id="carBean" class="org.example.Car">
+        <property name="make" value="Tata" />
+        <property name="model" value="Avinya" />
+        <property name="year" value="2025" />
+    </bean>
+
+    <bean id="carBean1" class="org.example.Car">
+        <property name="make" value="Hyperion" />
+        <property name="model" value="Hyperon" />
+        <property name="year" value="2025" />
+    </bean>
+</beans>
+
